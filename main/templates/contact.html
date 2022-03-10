@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{%block content%}
+<div class="main">
+<div class="complain">
+<div class="complain-form">
+    <form action="" method="post">
+        <label>Email : </label>
+        <input type="email" class="form-control" name="mail" placeholder="Enter your mail" />
+        <label>Subject : </label>
+        <input type="text" class="form-control" name="subject" placeholder="Your Subject" />
+        <label>Message : </label>
+        <textarea rows="5" cols="30" class="form-control"></textarea>
+        <input type="submit" class="form-control btn-info" value="Send" />
+    </form>
+</div>
+<div class="faq-direction">
+    <h4>For more Info visit Our FAQ </h4>
+     <p>Claims can sometimes be a headache, but not with us. In the case of an unfortunate event, we will hold your 
+         hand and walk with you through the claims process.</p>
+</div>
+</div>
+<h3>Get intouch with us :</h3>
+<div class='conta-details'>
+    <div></div>
+    <div>
+        <p>Call us : +254example </p>
+        <p> Email us : example@gmail.com</p>
+       
+    </div>
+    <div>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>Linked In</p>
+        <p>whatsapp</p>
+    </div>
+    <div></div>
+</div>
+</div>
+{% endblock %}

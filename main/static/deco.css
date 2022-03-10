@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: aquamarine;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* nav styling */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 15px;
+    margin: 0 auto;
+}
+.nav {
+    margin: o auto;padding: 10px;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;padding: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav ul li a:hover {
+    background-color: aquamarine;border-radius: 5px;
+}
+
+
+/* contact page styling */
+
+.complain {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.conta-details{
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr 2fr;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    display: block;
+}
+
+.btn-info {
+    background-color: aquamarine;border-radius: 10px;
+}
+
+/* footer styling */
+
+.footer {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 75px;
+    height: 50px;
+}
+
+/* home page styling */
+
+.offers {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.offers .cover {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.assistance {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: antiquewhite;
+}
